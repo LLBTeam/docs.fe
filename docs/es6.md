@@ -1,4 +1,4 @@
-# es6
+# ECMAScript 6
 
 ## let和const命令
 <a href="https://es6.ch-un.com/#letandconst" target="_blank">点击</a>

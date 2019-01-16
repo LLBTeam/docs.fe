@@ -6,5 +6,5 @@
 * [Date](date.md)
 * [Math](math.md)
 * [Number](number.md)
-* [es6](es6.md)
+* [ECMAScript 6](es6.md)
 * [nodejs](node.md)

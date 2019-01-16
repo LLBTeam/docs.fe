@@ -1,6 +1,6 @@
 var CONFIG = {
   // 网页 title
-  title: 'Book-Cli',
+  title: 'javascript基础',
   // 网页 keywords
   keywords: 'book, book-cli, doc, example',
   // 网页 description
@@ -10,5 +10,5 @@ var CONFIG = {
   // 左侧目录的md文件
   summaryMd: 'SUMMARY.md',
   // 网页默认访问的md文件
-  index: 'README.md'
+  index: 'js.md'
 }

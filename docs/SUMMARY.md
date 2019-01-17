@@ -1,4 +1,3 @@
-
 * [Javascript](js.md)
   * [String](string.md)
   * [Array](array.md)
@@ -9,4 +8,9 @@
 * [ECMAScript 6](es6.md)
 * [NodeJs](node.md)
   * [Express](express.md)
+* [Vscode](vscode.md)
+  * [Vscode 安装](vscode-setup.md)
+  * [Vscode 插件列表](vscode-plugin.md)
+  * [Vscode 调试node](vscode-nodedegubber.md)
+  * [Vscode 快捷键](vscode-shortcutkey.md)
 

@@ -84,4 +84,67 @@ Array 对象用于在单个的变量中存储多个值。
     <td><a target="_blank" href="http://www.w3school.com.cn/jsref/jsref_valueof_array.asp">valueOf()</a></td>
     <td>返回数组对象的原始值</td>
   </tr>
+  <tr>
+    <td><a target="_blank" href="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach">forEach()</a></td>
+    <td>方法按升序为数组中含有效值的每一项执行一次callback 函数</td>
+  </tr>
+  <tr>
+    <td><a target="_blank" href="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array/filter">filter()</a></td>
+    <td>方法创建一个新数组, 其包含通过所提供函数实现的测试的所有元素</td>
+  </tr>
+  <tr>
+    <td><a target="_blank" href="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array/map">map()</a></td>
+    <td>创建一个新数组，其结果是该数组中的每个元素都调用一个提供的函数后返回的结果</td>
+  </tr>
+  <tr>
+    <td><a target="_blank" href="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array/some">some()</a></td>
+    <td>测试是否至少有一个元素通过由提供的函数实现的测试</td>
+  </tr>
 </tbody></table>
+
+
+##示例 forEach
+```
+var words = ["one", "two", "three", "four"];
+words.forEach(function(word) {
+  console.log(word);
+});
+// one 
+// two
+// three
+// four
+```
+
+##示例 filter
+```
+var words = ['spray', 'limit', 'elite', 'exuberant', 'destruction', 'present'];
+
+const result = words.filter(word => word.length > 6);
+
+console.log(result);
+// expected output: Array ["exuberant", "destruction", "present"]
+```
+
+##示例 map
+```
+var array1 = [1, 4, 9, 16];
+
+// pass a function to map
+const map1 = array1.map(x => x * 2);
+
+console.log(map1);
+// expected output: Array [2, 8, 18, 32]
+```
+
+##示例 some
+```
+var array = [1, 2, 3, 4, 5];
+
+var even = function(element) {
+  // checks whether an element is even
+  return element % 2 === 0;
+};
+
+console.log(array.some(even));
+// expected output: true
+```

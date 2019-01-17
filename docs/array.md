@@ -1,7 +1,7 @@
 #Array 对象
 
 ##语法
-```
+``` javascript
 let a = [];
 new Array();
 new Array(size);
@@ -96,7 +96,7 @@ Array 对象用于在单个的变量中存储多个值。
 
 
 ##示例 forEach
-```
+``` javascript
 var words = ["one", "two", "three", "four"];
 words.forEach(function(word) {
   console.log(word);
@@ -108,7 +108,7 @@ words.forEach(function(word) {
 ```
 
 ##示例 filter
-```
+``` javascript
 var words = ['spray', 'limit', 'elite', 'exuberant', 'destruction', 'present'];
 
 const result = words.filter(word => word.length > 6);
@@ -118,7 +118,7 @@ console.log(result);
 ```
 
 ##示例 map
-```
+``` javascript
 var array1 = [1, 4, 9, 16];
 
 // pass a function to map
@@ -129,7 +129,7 @@ console.log(map1);
 ```
 
 ##示例 some
-```
+``` javascript
 var array = [1, 2, 3, 4, 5];
 
 var even = function(element) {
@@ -143,7 +143,7 @@ console.log(array.some(even));
 
 ##示例 reduce
 ###语法
-```
+``` javascript
 arr.reduce(callback[initialValue])
 reduce为数组中的每一个元素依次执行callback函数，不包括数组中被删除或从未被赋值的元素，接受四个参数
 ```
@@ -152,12 +152,12 @@ reduce为数组中的每一个元素依次执行callback函数，不包括数组
 + currentIndex 当前索引
 + array 数组
 
-```
+``` javascript
 [0, 1, 2, 3, 4].reduce(function(accumulator, currentValue, currentIndex, array){
   return accumulator + currentValue;
 });
 ```
 同
-```
+``` javascript
 [0, 1, 2, 3, 4].reduce((prev, curr) => prev + curr );
 ```

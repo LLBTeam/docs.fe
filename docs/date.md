@@ -1,7 +1,7 @@
 #Date 对象
 
 ##语法
-```
+``` javascript
 var myDate=new Date()
 ```
 ##描述

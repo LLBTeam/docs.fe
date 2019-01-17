@@ -1,7 +1,7 @@
 #Boolean 对象
 
 ##语法
-```
+``` javascript
 let a = false;
 new Boolean(value);	//构造函数
 Boolean(value);		//转换函数

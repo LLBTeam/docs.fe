@@ -1,7 +1,7 @@
 #Math 对象
 
 ##语法
-```
+``` javascript
 var pi_value=Math.PI;
 var sqrt_value=Math.sqrt(15);
 ```

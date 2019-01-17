@@ -13,14 +13,14 @@ let a = String('a');
 -|-|-
 length|表示一个字符串的长度|该属性返回字符串中字符编码单元的数量
 
-```
+``` javascript
 var x = "Mozilla";
 var empty = "";
 
-console.log("Mozilla is " + x.length + " code units long");
+console.log(`Mozilla is ${x.length} code units long`);
 /* "Mozilla is 7 code units long" */
 
-console.log("The empty string is has a length of " + empty.length);
+console.log(`The empty string is has a length of ${empty.length}`);
 /* "The empty string is has a length of 0" */
 ```
 

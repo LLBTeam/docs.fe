@@ -1,7 +1,7 @@
 #Number 对象
 
 ##语法
-```
+``` javascript
 var a = 1;
 var myNum=new Number(value);
 var myNum=Number(value);

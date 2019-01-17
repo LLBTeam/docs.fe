@@ -65,24 +65,12 @@ Array 对象用于在单个的变量中存储多个值。
     <td>删除元素，并向数组添加新元素。</td>
   </tr>
   <tr>
-    <td><a target="_blank" href="http://www.w3school.com.cn/jsref/jsref_tosource_array.asp">toSource()</a></td>
-    <td>返回该对象的源代码。</td>
-  </tr>
-  <tr>
     <td><a target="_blank" href="http://www.w3school.com.cn/jsref/jsref_toString_array.asp">toString()</a></td>
     <td>把数组转换为字符串，并返回结果。</td>
   </tr>
   <tr>
-    <td><a target="_blank" href="http://www.w3school.com.cn/jsref/jsref_toLocaleString_array.asp">toLocaleString()</a></td>
-    <td>把数组转换为本地数组，并返回结果。</td>
-  </tr>
-  <tr>
     <td><a target="_blank" href="http://www.w3school.com.cn/jsref/jsref_unshift.asp">unshift()</a></td>
     <td>向数组的开头添加一个或更多元素，并返回新的长度。</td>
-  </tr>
-  <tr>
-    <td><a target="_blank" href="http://www.w3school.com.cn/jsref/jsref_valueof_array.asp">valueOf()</a></td>
-    <td>返回数组对象的原始值</td>
   </tr>
   <tr>
     <td><a target="_blank" href="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach">forEach()</a></td>
@@ -99,6 +87,10 @@ Array 对象用于在单个的变量中存储多个值。
   <tr>
     <td><a target="_blank" href="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array/some">some()</a></td>
     <td>测试是否至少有一个元素通过由提供的函数实现的测试</td>
+  </tr>
+   <tr>
+    <td><a target="_blank" href="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce">reduce()</a></td>
+    <td>方法对数组中的每个元素执行一个由您提供的reducer函数，将其结果汇总为单个返回值</td>
   </tr>
 </tbody></table>
 
@@ -147,4 +139,25 @@ var even = function(element) {
 
 console.log(array.some(even));
 // expected output: true
+```
+
+##示例 reduce
+###语法
+```
+arr.reduce(callback[initialValue])
+reduce为数组中的每一个元素依次执行callback函数，不包括数组中被删除或从未被赋值的元素，接受四个参数
+```
++ accumulator 累计器
++ currentValue 当前值
++ currentIndex 当前索引
++ array 数组
+
+```
+[0, 1, 2, 3, 4].reduce(function(accumulator, currentValue, currentIndex, array){
+  return accumulator + currentValue;
+});
+```
+同
+```
+[0, 1, 2, 3, 4].reduce((prev, curr) => prev + curr );
 ```

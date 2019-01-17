@@ -6,7 +6,7 @@ var CONFIG = {
   // 网页 description
   description: 'Init html book with markdown files.',
   // 页面右上角的 github 链接
-  github: 'https://github.com/zfdai/webbase',
+  github: 'https://github.com/LLBTeam/docs.fe',
   // 左侧目录的md文件
   summaryMd: 'SUMMARY.md',
   // 网页默认访问的md文件

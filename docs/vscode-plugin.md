@@ -14,3 +14,4 @@
 - `Path Autocomplete` 路径完成提示
 - `IntelliSense for CSS class names in HTML` 会根据你当前的环境以及输入的首个字母自动为你推荐class类名
 - `filesize` 插件下载之后会在编辑器的左下角显示当前打开的文件的大小
+- `Beatufy` 代码格式化插件

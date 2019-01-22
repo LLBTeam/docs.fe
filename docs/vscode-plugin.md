@@ -2,7 +2,7 @@
 
 ## 插件入口
 
-![vscode](/images/docs/vscode/vscode-1.png)
+![vscode](./images/docs/vscode/vscode-1.png)
 
 ## 插件目录
 

@@ -20,6 +20,10 @@ Array 对象用于在单个的变量中存储多个值。
     <td><a target="_blank" href="http://www.w3school.com.cn/jsref/jsref_length_array.asp" target="_blank">length</a></td>
     <td>设置或返回数组中元素的数目。</td>
   </tr>
+  <tr>
+    <td><a target="_blank" href="http://www.w3school.com.cn/jsref/jsref_length_array.asp" target="_blank">prototype</a></td>
+    <td>在原型链上添加属性或者方法</td>
+  </tr>
 </tbody></table>
 
 ##方法
@@ -87,6 +91,10 @@ Array 对象用于在单个的变量中存储多个值。
   <tr>
     <td><a target="_blank" href="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array/some">some()</a></td>
     <td>测试是否至少有一个元素通过由提供的函数实现的测试</td>
+  </tr>
+  <tr>
+    <td><a target="_blank" href="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array/every">every()</a></td>
+    <td>测试所有元素通过由提供的函数实现的测试</td>
   </tr>
    <tr>
     <td><a target="_blank" href="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce">reduce()</a></td>

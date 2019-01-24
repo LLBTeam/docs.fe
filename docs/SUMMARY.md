@@ -13,4 +13,5 @@
   * [Vscode 插件列表](vscode-plugin.md)
   * [Vscode 调试node](vscode-nodedebug.md)
   * [Vscode 快捷键](vscode-shortcutkey.md)
+* [npm](npm.md)
 

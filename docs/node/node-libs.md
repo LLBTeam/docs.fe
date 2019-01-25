@@ -11,8 +11,8 @@
 ### Node 扩展包
 
 * [mysql](https://github.com/mysqljs/mysql)
-* [grpc]
-* [socket.io]
+* [grpc](https://blog.csdn.net/qq_31989047/article/details/79139710)
+* [socket.io](https://socket.io/get-started/chat/)
 * [request](https://www.cnblogs.com/liuchuanfeng/p/6686009.html)
 
 有了这个模块，http请求变的超简单。同时支持https和重定向。
@@ -25,5 +25,10 @@ request('http://www.google.com', function (error, response, body) {
   }
 })
 ```
-* [cookie-parser]
-* [body-parser]
+* [cookie-parser](https://github.com/expressjs/cookie-parser)
+
+是Express的中间件，用来实现cookie的解析，是官方脚手架内置的中间件之一。
+
+* [body-parser](https://github.com/expressjs/body-parser)
+
+是非常常用的一个express中间件，作用是对post请求的请求体进行解析。

@@ -11,7 +11,7 @@
   * [Node 使用](node/node-usage.md)
   * [Node 扩展包](node/node-libs.md)
   * [Express](express.md)
-  * [使用n管理node版本](node/n.md)
+  * [使用n管理node版本](node/node-n.md)
 * [Vscode](vscode.md)
   * [Vscode 安装](vscode-setup.md)
   * [Vscode 插件列表](vscode-plugin.md)
